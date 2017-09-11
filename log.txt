@@ -1,0 +1,43 @@
+RL
+
+09-11 18:57:25.715 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482568 heightMeasureSpec=-2147482328
+09-11 18:57:25.716 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482682 heightMeasureSpec=-2147482328
+09-11 18:57:25.716 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482328
+09-11 18:57:25.716 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482328
+09-11 18:57:25.716 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073741938 heightMeasureSpec=-2147482385
+09-11 18:57:25.716 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073741929 heightMeasureSpec=-2147482385
+09-11 18:57:25.716 12100-12100/? D/MyRelativeLayout: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=1073743144
+                                                     
+                                                     [ 09-11 18:57:25.752 12100:12116 D/         ]
+                                                     HostConnection::get() New Host Connection established 0x8cfffbc0, tid 12116
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482568 heightMeasureSpec=-2147482112
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482682 heightMeasureSpec=-2147482112
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482112
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482112
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073741938 heightMeasureSpec=-2147482169
+09-11 18:57:25.772 12100-12100/? D/MyTextView: onMeasure,  widthMeasureSpec=1073741929 heightMeasureSpec=-2147482169
+09-11 18:57:25.772 12100-12100/? D/MyRelativeLayout: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=1073743360
+09-11 18:57:25.773 12100-12100/? D/MyTextView: onLayout
+09-11 18:57:25.773 12100-12100/? D/MyTextView: onLayout
+09-11 18:57:25.773 12100-12100/? D/MyTextView: onLayout
+09-11 18:57:25.773 12100-12100/? D/MyRelativeLayout: onLayout
+
+
+LL
+
+09-11 18:48:18.679 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482328
+09-11 18:48:18.679 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482568 heightMeasureSpec=-2147482385
+09-11 18:48:18.679 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482442
+09-11 18:48:18.679 7228-7228/? D/MyLinearLayout: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=1073743144
+                                                 
+                                                 [ 09-11 18:48:18.711  7228: 7244 D/         ]
+                                                 HostConnection::get() New Host Connection established 0x9c45fbc0, tid 7244
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482112
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=-2147482568 heightMeasureSpec=-2147482169
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=-2147482226
+09-11 18:48:18.723 7228-7228/? D/MyLinearLayout: onMeasure,  widthMeasureSpec=1073742904 heightMeasureSpec=1073743360
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onLayout
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onLayout
+09-11 18:48:18.723 7228-7228/? D/MyTextView: onLayout
+09-11 18:48:18.723 7228-7228/? D/MyLinearLayout: onLayout
+
