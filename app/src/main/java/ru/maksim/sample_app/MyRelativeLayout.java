@@ -3,26 +3,25 @@ package ru.maksim.sample_app;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 /**
  * Created by maksim on 11.09.17.
  */
 
-public class MyLinearLayout extends LinearLayout {
+public class MyRelativeLayout extends RelativeLayout {
 
-    public static final String TAG = "MyLinearLayout";
+    public static final String TAG = "MyRelativeLayout";
 
-    public MyLinearLayout(Context context) {
+    public MyRelativeLayout(Context context) {
         super(context);
     }
 
-    public MyLinearLayout(Context context, AttributeSet attrs) {
+    public MyRelativeLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MyLinearLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MyRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
