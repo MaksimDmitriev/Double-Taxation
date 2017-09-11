@@ -35,6 +35,7 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
         int heightMode = View.MeasureSpec.getMode(heightMeasureSpec);
         Log.d(TAG,
               "onMeasure, "
+                      + getTag()
                       + " widthMeasureSpec=" + MeasureSpecMap.getName(widthMode)
                       + " heightMeasureSpec=" + MeasureSpecMap.getName(heightMode)
         );
@@ -43,6 +44,6 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
-        Log.d(TAG, "onLayout");
+        Log.d(TAG, getTag() + " onLayout");
     }
 }
