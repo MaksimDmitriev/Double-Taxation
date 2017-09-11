@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.View;
 
 /**
  * Created by maksim on 11.09.17.
@@ -30,10 +31,12 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        int widthMode = View.MeasureSpec.getMode(widthMeasureSpec);
+        int heightMode = View.MeasureSpec.getMode(heightMeasureSpec);
         Log.d(TAG,
               "onMeasure, "
-                      + " widthMeasureSpec=" + widthMeasureSpec
-                      + " heightMeasureSpec=" + heightMeasureSpec
+                      + " widthMode=" + widthMode
+                      + " heightMode=" + heightMode
         );
     }
 
