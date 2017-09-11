@@ -33,14 +33,15 @@ public class MyRelativeLayout extends RelativeLayout {
         int heightMode = View.MeasureSpec.getMode(heightMeasureSpec);
         Log.d(TAG,
               "onMeasure, "
+                      + getTag()
                       + " widthMeasureSpec=" + MeasureSpecMap.getName(widthMode)
                       + " heightMeasureSpec=" + MeasureSpecMap.getName(heightMode)
         );
     }
 
     @Override
-    protected void onLayout(boolean changed, int l, int t, int r, int b) {
-        super.onLayout(changed, l, t, r, b);
-        Log.d(TAG, "onLayout");
+    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
+        super.onLayout(changed, left, top, right, bottom);
+        Log.d(TAG, getTag() + " onLayout");
     }
 }
