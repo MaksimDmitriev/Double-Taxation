@@ -34,8 +34,8 @@ public class MyLinearLayout extends LinearLayout {
         int heightMode = View.MeasureSpec.getMode(heightMeasureSpec);
         Log.d(TAG,
               "onMeasure, "
-                      + " widthMode=" + widthMode
-                      + " heightMode=" + heightMode
+                      + " widthMeasureSpec=" + MeasureSpecMap.getName(widthMode)
+                      + " heightMeasureSpec=" + MeasureSpecMap.getName(heightMode)
         );
     }
 
