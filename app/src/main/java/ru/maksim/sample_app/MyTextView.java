@@ -35,8 +35,8 @@ public class MyTextView extends android.support.v7.widget.AppCompatTextView {
         int heightMode = View.MeasureSpec.getMode(heightMeasureSpec);
         Log.d(TAG,
               "onMeasure, "
-                      + " widthMode=" + widthMode
-                      + " heightMode=" + heightMode
+                      + " widthMeasureSpec=" + MeasureSpecMap.getName(widthMode)
+                      + " heightMeasureSpec=" + MeasureSpecMap.getName(heightMode)
         );
     }
 
